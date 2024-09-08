@@ -1,7 +1,3 @@
-variable username {
-  
-}
-
 output printname {
-	value = "Hello, ${var.username}"
+	value = "Hello, ${var.username} and  your age is, ${var.age}"
 }
